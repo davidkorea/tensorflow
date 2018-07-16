@@ -32,7 +32,17 @@
   Spaces in paths can sometimes be problematic.
   Solving environment: failed
 ```
-2. Warnings that could ignore?
+
+2. Do as the official guidebook - [Installing with Anaconda](https://www.tensorflow.org/install/install_windows?hl=ko)
+
+```C:> conda create -n tensorflow pip python=3.5 ```
+
+```C:> activate tensorflow```
+
+```(tensorflow)C:> pip install --ignore-installed --upgrade tensorflow ```
+
+
+3. Warnings that could ignore?
 ```
   >>> import tensorflow as tf
   >>> sess = tf.Session()
