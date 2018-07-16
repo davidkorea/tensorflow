@@ -17,3 +17,6 @@ Using /usr/local/lib/python3.6/site-packages
 Processing dependencies for pip                                                                           
 Finished processing dependencies for pip                                                                  
 ```
+2. Install tensorflow
+
+```$ pip3 install tensorflow```
