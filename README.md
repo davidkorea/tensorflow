@@ -5,7 +5,7 @@
 1. Install pip3
 
 ```$ python3 -m easy_install pip```
-```
+```python
 Searching for pip                                                                                         
 Best match: pip 10.0.1           
 Adding pip 10.0.1 to easy-install.pth file         
@@ -26,17 +26,22 @@ Finished processing dependencies for pip
 1.
 
 ```$ conda create -n tensorflow pip install python=3.5```
-```
+```python
 WARNING: A space was detected in your requested environment path
 'e:\Program Files\Anaconda3\envs\tensorflow'
 Spaces in paths can sometimes be problematic.
 Solving environment: failed
 ```
 2.
-```
+```python
 >>> import tensorflow as tf
 >>> sess = tf.Session()
 2018-07-17 00:46:16.481492: I T:\src\github\tensorflow\tensorflow\core\platform\
 cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow bi
 nary was not compiled to use: AVX2
+
+>>> hello = tf.constant('hello, tensor flow')
+>>> print(sess.run(hello))
+b'hello, tensor flow'
+>>>
 ```
