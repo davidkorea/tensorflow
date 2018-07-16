@@ -21,7 +21,7 @@
 
 ```$ pip3 install tensorflow```
 
-# Issue 2 - Win7 
+# Issue 2 - Win7 install tensorflow
 
 1. Re-install to the path without space
 
@@ -35,11 +35,11 @@
 
 2. Do as the official guidebook - [Installing with Anaconda](https://www.tensorflow.org/install/install_windows?hl=ko)
 
-```C:> conda create -n tensorflow pip python=3.5 ```
+```$ C:> conda create -n tensorflow pip python=3.5 ```
 
-```C:> activate tensorflow```
+```$ C:> activate tensorflow```
 
-```(tensorflow)C:> pip install --ignore-installed --upgrade tensorflow ```
+```$ (tensorflow)C:> pip install --ignore-installed --upgrade tensorflow ```
 
 
 3. Warnings that could ignore?
