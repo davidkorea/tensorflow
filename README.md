@@ -23,7 +23,7 @@
 
 # Issue 2 - Win7 
 
-1.
+1. Re-install to the path without space
 
 ```$ conda create -n tensorflow pip install python=3.5```
 ```
@@ -32,7 +32,7 @@
   Spaces in paths can sometimes be problematic.
   Solving environment: failed
 ```
-2.
+2. Warnings that could ignore?
 ```
   >>> import tensorflow as tf
   >>> sess = tf.Session()
@@ -45,5 +45,5 @@
   >>> print(sess.run(hello))
   b'hello, tensor flow'
 ```
-reference:
-[Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2](https://stackoverflow.com/questions/47068709/your-cpu-supports-instructions-that-this-tensorflow-binary-was-not-compiled-to-u)
+  reference:
+  [Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2](https://stackoverflow.com/questions/47068709/your-cpu-supports-instructions-that-this-tensorflow-binary-was-not-compiled-to-u)
