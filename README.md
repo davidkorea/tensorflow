@@ -32,3 +32,11 @@ WARNING: A space was detected in your requested environment path
 Spaces in paths can sometimes be problematic.
 Solving environment: failed
 ```
+2.
+```
+>>> import tensorflow as tf
+>>> sess = tf.Session()
+2018-07-17 00:46:16.481492: I T:\src\github\tensorflow\tensorflow\core\platform\
+cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow bi
+nary was not compiled to use: AVX2
+```
