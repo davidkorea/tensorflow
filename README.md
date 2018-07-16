@@ -36,6 +36,7 @@ Solving environment: failed
 ```python
 >>> import tensorflow as tf
 >>> sess = tf.Session()
+
 2018-07-17 00:46:16.481492: I T:\src\github\tensorflow\tensorflow\core\platform\
 cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow bi
 nary was not compiled to use: AVX2
@@ -43,5 +44,6 @@ nary was not compiled to use: AVX2
 >>> hello = tf.constant('hello, tensor flow')
 >>> print(sess.run(hello))
 b'hello, tensor flow'
->>>
 ```
+
+[Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2](https://stackoverflow.com/questions/47068709/your-cpu-supports-instructions-that-this-tensorflow-binary-was-not-compiled-to-u)
