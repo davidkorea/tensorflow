@@ -20,3 +20,15 @@ Finished processing dependencies for pip
 2. Install tensorflow
 
 ```$ pip3 install tensorflow```
+
+# Issue 2 - Win7 
+
+1.
+
+```$ conda create -n tensorflow pip install python=3.5```
+```
+WARNING: A space was detected in your requested environment path
+'e:\Program Files\Anaconda3\envs\tensorflow'
+Spaces in paths can sometimes be problematic.
+Solving environment: failed
+```
