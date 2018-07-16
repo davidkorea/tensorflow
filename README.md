@@ -5,7 +5,7 @@
 1. Install pip3
 
 ```$ python3 -m easy_install pip```
-```python
+```
   Searching for pip                                                                                         
   Best match: pip 10.0.1           
   Adding pip 10.0.1 to easy-install.pth file         
@@ -26,14 +26,14 @@
 1.
 
 ```$ conda create -n tensorflow pip install python=3.5```
-```python
+```
   WARNING: A space was detected in your requested environment path
   'e:\Program Files\Anaconda3\envs\tensorflow'
   Spaces in paths can sometimes be problematic.
   Solving environment: failed
 ```
 2.
-```python
+```
   >>> import tensorflow as tf
   >>> sess = tf.Session()
 
