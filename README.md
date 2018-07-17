@@ -59,7 +59,9 @@ b'hello, tensor flow'
   [Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2](https://stackoverflow.com/questions/47068709/your-cpu-supports-instructions-that-this-tensorflow-binary-was-not-compiled-to-u)
   
   
- # Issue 3 - Win10
+ # Issue 3 - Win10 
+ 
+ **Unfixed**
  
  ```
  >>> import tensorflow as tf
