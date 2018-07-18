@@ -25,7 +25,7 @@ Finished processing dependencies for pip
 
 1. Re-install to the path without space
 
-```$ conda create -n tensorflow pip install python=3.5```
+```$ conda create -n tensorflow pip python=3.5```
 ```
 WARNING: A space was detected in your requested environment path
 'e:\Program Files\Anaconda3\envs\tensorflow'
