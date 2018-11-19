@@ -1,5 +1,18 @@
 # tensorflow
 
+# Issue 4 - Open Tensorborad in Kaggle Kernel
+
+1. open tensorboard locally
+
+```python
+writer = tf.summary.FileWriter('./graph1', sess.graph)
+writer.close()
+sess.close()
+
+!tensorboard --logdir='./graph1'
+```
+
+
 # Issue 1 - MAC install tensorflow
 
 1. Install pip3
