@@ -29,6 +29,8 @@ get_ipython().system_raw('./ngrok http 6006 &')
     "import sys, json; print(json.load(sys.stdin)['tunnels'][0]['public_url'])"
 ```
 
+![20181119162041](https://user-images.githubusercontent.com/26485327/48691823-4cb2f680-ec17-11e8-8f57-f064b65938b0.png)
+
 # Issue 1 - MAC install tensorflow
 
 1. Install pip3
