@@ -1,6 +1,6 @@
 # tensorflow
 
-# Iuuse 5 - tf.argmax(vector, 1) same as np.argmax()
+# Issue 5 - tf.argmax(vector, 1) same as np.argmax()
 
 > ```tf.argmax(input, axis=None, name=None, dimension=None, output_type=tf.int64)```
 
