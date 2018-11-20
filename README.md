@@ -1,5 +1,33 @@
 # tensorflow
 
+# Iuuse 5 - tf.argmax(vector, 1)
+
+- 0：按列计算
+- 1：按行计算
+```python
+test = np.array([[1, 2, 3], [2, 3, 4], [5, 4, 3], [8, 7, 2]])
+np.argmax(test, 0)　　　＃输出：array([3, 3, 1]
+np.argmax(test, 1)　　　＃输出：array([2, 2, 0, 0]
+```
+
+1.  tf.argmax(vector, 1)
+
+```python
+test[0] = array([1, 2, 3])  #2
+test[1] = array([2, 3, 4])  #2
+test[2] = array([5, 4, 3])  #0
+test[3] = array([8, 7, 2])  #0
+```
+2.  tf.argmax(vector, 0)
+
+```python
+test[0] = array([1, 2, 3])
+test[1] = array([2, 3, 4])
+test[2] = array([5, 4, 3])
+test[3] = array([8, 7, 2])
+# output   :  # [3, 3, 1]   
+```
+
 # Issue 4 - Open Tensorborad in Kaggle Kernel
 
 1. open tensorboard locally
