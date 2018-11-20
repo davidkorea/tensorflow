@@ -1,6 +1,8 @@
 # tensorflow
 
-# Iuuse 5 - tf.argmax(vector, 1) same as numpy.argmax()
+# Iuuse 5 - tf.argmax(vector, 1) same as np.argmax()
+
+> ```tf.argmax(input, axis=None, name=None, dimension=None, output_type=tf.int64)```
 
 - 0：按列计算
 - 1：按行计算
