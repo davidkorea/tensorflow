@@ -5,6 +5,10 @@
 1. Kaggle kernel supports create a folder path with code ```os.makedir('./data')```
 2. if using a uploaded dataset, it will be saved ```'../input/'```
 
+Refer to notebook []()
+
+![](https://i.loli.net/2018/11/21/5bf4d18f5eca0.png)
+
 # Issue 5 - tf.argmax(vector, 1) same as np.argmax()
 
 > ```tf.argmax(input, axis=None, name=None, dimension=None, output_type=tf.int64)```
