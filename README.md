@@ -9,6 +9,9 @@ Refer to notebook []()
 
 ![](https://i.loli.net/2018/11/21/5bf4d18f5eca0.png)
 
+
+Reference: [https://github.com/nishithbsk/tensorflow_tutorials/tree/master/cs224n/word2vec](https://github.com/nishithbsk/tensorflow_tutorials/tree/master/cs224n/word2vec)
+
 # Issue 5 - tf.argmax(vector, 1) same as np.argmax()
 
 > ```tf.argmax(input, axis=None, name=None, dimension=None, output_type=tf.int64)```
