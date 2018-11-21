@@ -1,4 +1,11 @@
 # tensorflow
+# Issue 7 - tf.nn.nce_loss()
+
+```python
+
+Signature: tf.nn.nce_loss(weights, biases, labels, inputs, num_sampled, num_classes, num_true=1, sampled_values=None, remove_accidental_hits=False, partition_strategy='mod', name='nce_loss')
+```
+
 
 # Issue 6 - os.makedir('./data') on Kaggle Kernel
 
