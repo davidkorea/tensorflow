@@ -1,5 +1,9 @@
 # tensorflow
 
+# Issue 6 - os.makedir('./data') on Kaggle Kernel
+
+Kaggle kernel supports create a folder path with code ```os.makedir('./data')```, if using a uploaded dataset, it will be saved ```'../input/'```
+
 # Issue 5 - tf.argmax(vector, 1) same as np.argmax()
 
 > ```tf.argmax(input, axis=None, name=None, dimension=None, output_type=tf.int64)```
