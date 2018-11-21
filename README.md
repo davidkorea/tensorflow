@@ -5,7 +5,7 @@
 1. Kaggle kernel supports create a folder path with code ```os.makedir('./data')```
 2. if using a uploaded dataset, it will be saved ```'../input/'```
 
-Refer to notebook [](https://github.com/davidkorea/tensorflow/blob/master/tensorflow_skipgram.ipynb)
+Refer to notebook [tensorflow_skipgram.ipynb](https://github.com/davidkorea/tensorflow/blob/master/tensorflow_skipgram.ipynb)
 
 ![](https://i.loli.net/2018/https://github.com/davidkorea/tensorflow/blob/master/tensorflow_skipgram.ipynb11/21/5bf4d18f5eca0.png)
 
