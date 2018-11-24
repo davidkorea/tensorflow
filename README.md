@@ -1,4 +1,11 @@
 # tensorflow
+
+# Issue 8 LSTM
+
+
+
+
+
 # Issue 7 - tf.nn.nce_loss()
 
 ```python
